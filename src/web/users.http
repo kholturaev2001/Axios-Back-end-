@@ -1,0 +1,22 @@
+# Get Users 
+GET  https://6264fc9e94374a2c506bde51.mockapi.io/users    
+
+
+# Create User
+POST   https://6264fc9e94374a2c506bde51.mockapi.io/users    
+
+{
+  "name": "simple"
+}
+
+
+# Delete User
+DELETE  https://6264fc9e94374a2c506bde51.mockapi.io/users/1    
+
+
+# Edit User
+PUT   https://6264fc9e94374a2c506bde51.mockapi.io/users/1    
+
+{
+  "name": "simple 1"
+}
